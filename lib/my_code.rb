@@ -46,11 +46,8 @@ def reduce_to_total(array, start = 0)
 end
   
 def reduce_to_all_true(array)
-  sum = 0 
-    array.each do |i|
-      sum += i
-    end
-    if start 
+ 
+    if array 
       return true
     else
       return false 
