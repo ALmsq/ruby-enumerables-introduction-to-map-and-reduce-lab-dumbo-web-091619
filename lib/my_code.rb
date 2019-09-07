@@ -50,7 +50,7 @@ def reduce_to_all_true(array)
 end
 
 def reduce_to_any_true(array)
-  return array.all?
+  array.each do |i|
 end
 
   
